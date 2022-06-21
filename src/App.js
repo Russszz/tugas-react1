@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div>
-      <h1 className="mx-auto">To Do List </h1>
+      <h1 className="mx-auto">Tugas React JS</h1>
       <TextInput
         value={newtaskvalue}
         onChange={(e) => setnewtaskvalue(e.target.value)}
