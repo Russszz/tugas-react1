@@ -1,9 +1,16 @@
 import React from "react";
-import { globalStyles } from "../theme/globalStyles";
 
 const Button = ({ text = "Button", backgroundColor = "#27ae60", ...props }) => {
   return (
-    <button style={globalStyles.container(backgroundColor)} {...props}>
+    <button
+      style={{
+        background: backgroundColor,
+        border: 0,
+        color: "white",
+        borderRadius: 5,
+      }}
+      {...props}
+    >
       {text}
     </button>
   );
